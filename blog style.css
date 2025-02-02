@@ -104,3 +104,21 @@ nav a:hover {
         width: 48%;
     }
 }
+
+.social-media {
+    display: flex; /* Use flexbox to align the items */
+    justify-content: center; /* Center the icons horizontally */
+    align-items: center; /* Center the icons vertically */
+    gap: 20px; /* Space between icons */
+    margin-top: 20px; /* Optional: Add some space above the icons */
+}
+
+.social-media ion-icon {
+    font-size: 3rem; /* Increase the icon size */
+    color: #333; /* Default color */
+    transition: color 0.3s ease; /* Smooth color transition */
+}
+
+.social-media ion-icon:hover {
+    color: #f0a500; 
+}
